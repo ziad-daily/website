@@ -5,32 +5,356 @@
         <title>Green Gears</title>
         <link rel="stylesheet" href="style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
     </head>
     <body>
-        <section class="header">
+        <section class="home">
+        <div class="header">
             <nav>
-                <a href="index.html"><img src="images/logoo.png"></a>
+                <a href="index.html"><img src="images/glogo3.png"></a>
+                <p class="logo-text">GreenGears</p>
                 <div class="nav-links">
                     <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="">About</a></li>
-                        <li><a href="">Sponsorship</a></li>
-                        <li><a href="">Contact us</a></li>
-                        
+                        <li><a href="#" onclick="scrollToSection(event, 'home')">Home</a></li>
+                        <li><a href="#" onclick="scrollToSection(event, 'About')">About</a></li>
+                        <li><a href="#" onclick="scrollToSection(event, 'Team')">Our Team</a></li>
+                        <li><a href="#" onclick="scrollToSection(event, 'Sponsorship')">Sponsorship</a></li>
+                        <li><a href="#" onclick="scrollToSection(event, 'contact')">Contact</a></li>
                     </ul>
                 </div>
             </nav>
+        </div>
 
-            <div class="text-box">
-                <h1>World's Best Hotel Chains</h1>
-                <p>Building websites now is one of the easiest things to do. You
-                just need to lear HTML, CSS, and <br>Javascript and you are good to go.
+        <div class="text-box">
+                <h1>Green Gears</h1>
+                <p class="p2">United Arab Emirates University - Al Ain</p>
+                <p class="P1">Green Gears is a team of engineering students who will build an ultra-efficient car,<br>
+                      aiming to be a strong contender in the shell eco marathon  The Middle East and Asia Pacific. 
                 </p>
-                <a href="" class="alink">Visit Us to Know More</a>
-            </div>
-                
+        </div>
         </section>
+<!-- =====================================About======================================================== -->
+        <section class="About">
+            <h1>About</h1>
+            <h2 id="team">About the Team</h2>
+            <p id="teamp">Green Gears is a team of driven engineering students
+                participating from the United Arab Emirates University,
+                striving to make an impact in the sustainable transportation industry.
+                The team combines multiple skills and disciplines to produce innovative solutions.
+                Green Gears have set their sights further than the regional competition and aim to make it to the global finals.
+            </p>
+            <h2 id="shell">About Shell-Eco Marathon</h2>
+            <p id="shellp">
+                <a href="https://www.shellecomarathon.com/2024-programme/regional-asia-pacific-and-middle-east.html"><img src="images/shellbanner.png"></a><br>
+                The Shell Eco-marathon is a global competition that challenges student teams to design, build, and drive
+                 the most energy-efficient vehicles possible. Participants aim to travel the farthest distance using the
+                 least amount of energy.
+            </p>
+            <a href="https://www.shellecomarathon.com/2024-programme/regional-asia-pacific-and-middle-east.html" class="alink">Visit Shell-Eco Marathon</a>
+        </section>
+<!-- =====================================Our Team======================================================== -->
+        <section class="Team">
+            <h1>Our Team</h1>
+
+            <!--ziad-->
+
+            <ul><li><img src="path/toimage"></li>
+                <li><h2>Ziad Sefelnasr</h2>
+                    <p>5th year Electrical Engineering student at UAEU</p>
+                    <p>Electrical Engineering student with experience in programming, <br>energy, and control.</p>
+                    <p>Email: Ziad.sefelnasr@outlook.com</p>
+                </li>
+            </ul>
+
+            <!--Ahmed Serag-->
+
+            <ul>
+                <li><h2>Ahmed Serag</h2>
+
+                    <p>4h year Mechanical Engineering student at UAEU</p>
+                    <p>Aspiring Engineer with an interest in thermofluids and research.</p>
+                    <p>Email: ahmedaserag178@gmail.com</p>
+                </li>
+                <li><img src="path/toimage"></li>
+            </ul>
+
+            <!--Saad Harairy-->
+
+            <ul><li><img src="path/toimage"></li>
+                <li><h2>Saad Harairy</h2>
+
+                    <p>4th year Electrical Engineering student at UAEU</p>
+                    <p>Adept at merging theoretical knowledge with practical applications.</p>
+                    <p>Email: Saad.alharairi@gmail.com</p>
+                </li>
+            </ul>
+
+            <!--Tariq Zougbor-->
+
+            <ul>
+                <li><h2>Tariq Zougbor</h2>
+
+                    <p>3rd year Mechanical Engineering student at UAEU</p>
+                    <p>A Mechanical Engineering student passionate about <br>material and vehicle design.</p>
+                    <p>Email: tariq.zougbor8@gmail.com</p>
+                </li>
+                <li><img src="path/toimage"></li>
+            </ul>
+
+            <!-- Zayna Khawaja -->
+
+            <ul><li><img src="path/toimage"></li>
+                <li><h2>Zayna Khawaja</h2>
+
+                    <p>Mechanical Engineering Graduate from AUD</p>
+                    <p>Combines skills in engineering design and interests in energy<br> & environmentalism to create a sustainable haven.</p>
+                    <p>Email: zkhawaja31@gmail.com</p>
+                </li>
+            </ul>
+
+            <!-- Ahmed Al Hamarna -->
+
+            <ul>
+                <li><h2>Ahmed Al Hamarna</h2>
+
+                    <p>4th year Electrical Engineering student at UAEU</p>
+                    <p>Passionate electrical engineer, driven to<br> push the boundaries of technology.</p>
+                    <p>Email: ahmedalhamarna1@gmail.com</p>
+                </li>
+                <li><img src="path/toimage"></li>
+            </ul>
+
+            <!-- Azm najjar -->
+
+            <ul><li><img src="path/toimage"></li>
+                <li><h2>Azm najjar</h2>
+
+                    <p>4th year Mechanical Engineering student at UAEU</p>
+                    <p>Jack of all trades, hoping to leave a positive impact wherever.</p>
+                    <p>Email: Azmemadnajjar@gmail.com</p>
+                </li>
+            </ul>
+
+            <!-- Sarra Ba -->
+
+            <ul>
+                <li><h2>Sarra Ba</h2>
+
+                    <p>5th year Aerospace Engineering student at UAEU</p>
+                    <p>Automation lover, combining different skill sets to offer unique solutions.</p>
+                    <p>Email: saraousman@outlook.com</p>
+                </li>
+                <li><img src="path/toimage"></li>
+            </ul>
+
+            <!-- Reem Saad -->
+
+            <ul><li><img src="path/toimage"></li>
+                <li><h2>Reem Saad</h2>
+
+                    <p>3rd year Mechanical Engineering student at UAEU</p>
+                    <p>A mechanical engineering student passionate about finding<br> sustainable solutions.</p>
+                    <p>Email: 700040529@uaeu.ac.ae</p>
+                </li>
+            </ul>
+
+            <!-- Mohamed El Shebrawy -->
+
+            <ul>
+                <li><h2>Mohamed El Shebrawy</h2>
+
+                    <p>5rd year Aerospace Engineering student at UAEU</p>
+                    <p>An aerospace engineering student trying to find middle <br>ground between the aerospace industry and sustainability.</p>
+                    <p>Email: Elshabrawy03@gmail.com</p>
+                </li>
+                <li><img src="path/toimage"></li>
+            </ul>
+
+            <!-- Lin Tayara -->
+
+            <ul><li><img src="path/toimage"></li>
+                <li><h2>Lin Tayara</h2>
+
+                    <p>Electrical Engineering Graduate from UAEU</p>
+                    <p>Energy, Creativity and Technology enthusiast.</p>
+                    <p>Email: lintayara@hotmail.com</p>
+                </li>
+            </ul>
+        </section>
+
+
+
+
+<!-- =====================================Sponsorship======================================================== -->
+        <section class="Sponsorship">
+            <div class="headline">
+            <h1>Sponsoring us</h1>
+            <p>Aligns you with cutting-edge innovation and sustainable transportation technologies, demonstrating forward-thinking and industry leadership.<br>
+                Offers extensive visibility through global events, media coverage, social media, and promotional materials.
+                Enhances your Corporate Social Responsibility profile by supporting sustainability, community engagement, and fostering future talent in STEM fields.<br>
+                Connects you with and recruits bright future engineers, offering mentorship and internship opportunities.
+                Differentiates you in the marketplace and facilitates connections with industry leaders, academic institutions, and potential business partners.
+            </p>
+
+            <p>To those interested in supporting Green Gears Team, please look over
+                the Sponsorship packages down below and for extra details download the Sponsorship proposal below.
+                for any questions or inquiries please <a href="#" onclick="scrollToSection(event, 'contact')">Contact us</a>.</p>
+            <h1>
+                Sponsor Packs
+            </h1>
+
+            </div>
+            <div class="scrolling-wrapper">
+                <div class="scrolling-wrapper-inner">
+                    <div class="package">
+                        <h3>Elite   >=12000AED</h3>
+                        <p>Package</p>
+                        <ul>
+                            <li>Max of 5 sponsors</li>
+                            <li>All Platinum package rewards +</li>
+                            <!-- <li>Logo to be placed on the competing car</li> -->
+                            <li>Name and logo to be placed on the suit</li>
+                            <!-- <li>Access to progress of manufacturing</li> -->
+                        </ul>
+                    </div>
+                    <div class="package">
+                        <h3>Platinum   >=7000AED</h3>
+                        <p>Package</p>
+                        <ul>
+                            <li>Max of 5 sponsors</li>
+                            <li>All Gold package rewards +</li>
+                            <!-- <li>Inclusion in all articles</li> -->
+                            <li>Name and logo of sponsor to be headlined on website and Instagram page</li>
+                            <li>Big Logo on car body</li>
+                            <!-- <li>Name and logo to be placed on competition suit</li> -->
+                            <!-- <li>Name of sponsor to be included in article publications</li> -->
+                            <!-- <li>Inclusion in all group meetings and access to instant-connection platforms (WhatsApp groups, Google Drive, ...)</li> -->
+                            <!-- <li>Inclusion in scheduled recurring update meetings</li> -->
+                        </ul>
+                    </div>
+                    <div class="package">
+                        <h3>Gold    >=5000AED</h3>
+                        <p>Package</p>
+                        <ul>
+                            <li>Max of 4 sponsors</li>
+                            <li>All Silver package rewards +</li>
+                            <li>Access to progress of manufacturing</li>
+                            <!-- <li>Inclusion in most social media posts</li> -->
+                            <!-- <li>Feature in most videos published</li> -->
+                            <!-- <li>Inclusion in article publications</li> -->
+                            <li>small logo on the car body</li>
+                        </ul>
+                    </div>
+                    <div class="package">
+                        <h3>Silver   >=3000AED</h3>
+                        <p>Package</p>
+                        <ul>
+                            <!-- <li>Max of 3 sponsors</li> -->
+                            <li>All Bronze package rewards +</li>
+                            <!-- <li>Name and logo of sponsor to be sub headlined on website</li> -->
+                            <!-- <li>Name and logo to be placed on competition suit</li> -->
+                            <li>Inclusion in some social media posts</li>
+                            <li>Feature in some videos published</li>
+                        </ul>
+                    </div>
+                    <div class="package">
+                        <h3>Bronze   >=1000AED</h3>
+                        <p>Package</p>
+                        <ul>
+                            <!-- <li>Max of 3 sponsors</li> -->
+                            <li>Name and logo of sponsor to be mentioned on website</li>
+                            <!-- <li>Inclusion in some group meetings and access to instant-connection platforms (WhatsApp groups)</li>
+                            <li>Appreciation letters and group photos with the team</li> -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="proposal">
+                <h1>Sponsorship proposal</h1>
+                <iframe src="images/Green Gears Proposal.pdf" width="100%" height="600px"></iframe>
+                <a class="l" href="images/Green Gears Proposal.pdf" download="Green Gears Proposal 2025.pdf" class="download-link">Green-Gears-Sponsorship-Proposal-2025.pdf</a>
+                <a class="box" href="images/Green Gears Proposal.pdf" download="Green Gears Proposal 2025.pdf" class="download-link">Download</a>
+            </div>
+
+        </section>
+
+<!-- =====================================Contact Us======================================================== -->
+
+        <section class="contact">
+            <h1>Contact us</h1>
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-phone"></i>
+                        <span>
+                            <h5>+971 58 584 9942</h5>
+                            <p>Monday to Saturday, 10AM to 5PM. Friday 10AM to 12PM.</p>
+                        </span>
+                    
+                </div>
+                <div>
+                    <i class="fa fa-envelope"></i>
+                
+                        <span>
+                            <h5>GreenGears25@outlook.com</h5>
+                            <p>Email us your inquiries.</p>
+                        </span>
+                    </div>
+
+                    <div>
+                        <i class="fa fa-envelope"></i>
+                    
+                            <span>
+                                <h5>ziad.sefelnasr@outlook.cpm</h5>
+                                <p>Team Manager Email</p>
+                            </span>
+                        </div>
+                <div class="contact-col">
+                    <form action="form-handler.php" method="post">
+                        <input type="text" name="name" placeholder="Enter your name" required>
+                        <input type="email" name="email" placeholder="Enter your Email address" required>
+                        <input type="text" name="subject" placeholder="Enter your subject" required>
+                        <textarea rows="8" name="message" placeholder="Enter your inquiry" required></textarea>
+                        <button type="submit" class="alink">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+<!-- =====================================Footer======================================================== -->
+
+
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-left">
+                    <a href="index.html"></a><img src="images/glogo3.png" alt="Logo" class="footer-logo"></a>
+                    <span class="footer-text">Green Gears</span>
+                </div>
+                <div class="footer-center">
+                    <a href="tel:+971 58 584 9942" class="footer-icon"><i class="fas fa-phone"></i></a>
+                    <a href="mailto:Greengears25@outlook.com" class="footer-icon"><i class="fas fa-envelope"></i></a>
+                    <a href="https://www.facebook.com/yourprofile" target="_blank" class="footer-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/yourprofile" target="_blank" class="footer-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/yourprofile" target="_blank" class="footer-icon"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://twitter.com/yourprofile" target="_blank" class="footer-icon"><i class="fab fa-twitter"></i></a>
+                </div>
+                <div class="footer-right">
+                    <p class="footer-made-with">Made with <i class="fas fa-heart"></i> by Green Gears</p>
+                </div>
+            </div>
+        </footer>
+
+
+        <script>
+            function scrollToSection(event, className) {
+                event.preventDefault();
+                const section = document.querySelector(`.${className}`);
+                if (section) {
+                    section.scrollIntoView({ behavior: 'smooth' });
+                }
+            }
+        </script>
     </body>
 </html>
